@@ -1,0 +1,50 @@
+h1{
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h2 {
+    color: darkmagenta;
+    font-size: 35px;
+    font-family: 'Work Sans', sans-serif;
+}
+h3 {
+    color:rgb(165, 42, 128);
+    font-size: 25px;
+}
+
+ul{
+    color: rgb(45, 26, 13);
+}
+.colorCrimson {
+    color:crimson;
+}
+p,
+h3,
+ul,
+.colorCrimson{
+    font-family: 'Lato', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+.primerasImg{
+    width: auto;
+    height: 200px
+}
+
+.ultimasImg {
+    width: auto;
+    height: 100px;
+}
+.contenedor{
+    display: inline-block;
+
+}
+div{
+    background-color: rgb(250, 196, 242);
+    
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+img 
