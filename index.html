@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <head>
     <title>Pagina de prueba</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,6 +34,14 @@
     </div>
       
 
+    <div class="galeria-emergente" id="galeriaEmergente" onclick="cerrarGaleria()">
+      <img class="galeria-contenido" id="imagenSeleccionada" alt="Imagen Emergente">
+    </div>
+
+
+
+
+    
       <h3 class="colorCrimson"> Lo que aprendí hoy</h3>
 
         <p> Solo vi unas horas de un curso de HTML hecho por freeCodeCamp, así que no avancé mucho. Estoy repasando conceptos.
@@ -38,17 +49,16 @@
           A veces se me hace un poco confuso leer el código. ¿Podrías decirme si este código está bien escrito? ¿o debería poner algunos espacios, saltos de línea? Lo que Ud. diga.
         </p>
 
-        <h3> Listas de gatos</h3>
-        <p>Cosas que los gatos aman</p>
+        <h2>Cosas que los gatos aman</h2>
         <ul>
           <li><a href="#comida">Comida</a></li>
           <li><a href="#pescado">Pescado</a> (a ninguna de mis gatas les gusta)</li>
           <li><a href="#celi"> Celi </a>(todos menos Loki)</li>
         </ul>
         <div class="contenedor">
-        <img class="ultimasImg" id= "comida" src="https://th.bing.com/th/id/R.6afc3c3773c6ae9fb6e5947c5b6ccc69?rik=pl0sfd8DEF5bjg&pid=ImgRaw&r=0"alt="comida gatuna">
-        <img class="ultimasImg" id= "pescado" src="https://thumbs.dreamstime.com/b/el-gato-come-pescados-en-la-cocina-120736524.jpg" alt="gato comiendo pescado">
-        <img class="ultimasImg" id= "celi" src="resourses/images/celi.png" alt="celi pintando al aire libre">
+        <img class="ultimasImg" id= "comida" src="https://th.bing.com/th/id/R.6afc3c3773c6ae9fb6e5947c5b6ccc69?rik=pl0sfd8DEF5bjg&pid=ImgRaw&r=0"alt="comida gatuna"onclick="abrirGaleria(this)">
+        <img class="ultimasImg" id= "pescado" src="https://thumbs.dreamstime.com/b/el-gato-come-pescados-en-la-cocina-120736524.jpg" alt="gato comiendo pescado"onclick="abrirGaleria(this)">
+        <img class="ultimasImg" id= "celi" src="resourses/images/celi.png" alt="celi pintando al aire libre"onclick="abrirGaleria(this)">
         <!--Esta bien poner el enlace asi?-->
       </div>
 
@@ -58,7 +68,7 @@
 
         </form>
     </div>
-        
+    <script src="script.js"></script>
       </main>
   </body>
 </html>
