@@ -2,8 +2,10 @@
 <html lang="es">
   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
   <head>
+
+    
     <title>Pagina de prueba</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,30 +15,42 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
 
-    
+ 
     <main>
-
+         <!-- !!!!!!!!!!!!!!!!! -->  
+      <div class="fondo-video">
+        <video autoplay muted loop>
+            <source src="resourses/The Drive - ft HOME - Resonance.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </div>
+    
+    <!-- !!!!!!!!!!!!!!!!! -->  
+    <div class="todo">
       <div>
         <h1>Aprendiendo CSS y repasando HTML</h1>
         <h2>Hecho por Celi</h2>
-      <p> Hacé <a href="https://www.instagram.com/celinadelturco" target="_blank" rel="nooperer noreferrer">click aquí </a>para ver imagenes lindas</a></p>
-      <p><!--con alt +z se pueden escribir parrafos largos--></p>
+        <p> Hacé <a href="https://www.instagram.com/celinadelturco" target="_blank" rel="nooperer noreferrer">click aquí </a>para ver imagenes lindas</a></p>
+        <p><!--con alt +z se pueden escribir parrafos largos--></p>
       
         <a href= "https://www.pinterest.es/pin/39406565473678356/" target="_blank" rel="nooperer noreferrer">
         <div class="contenedor">
           <img class="primerasImg" src="https://tvazteca.brightspotcdn.com/e5/46/6e03e8d34b8b8911aaae4aac99cf/gato-conejo.jpg" alt ="Un gato y un conejo y dos patos">
-        </a><img class="primerasImg" src="https://pbs.twimg.com/media/Fki57jdXgAA3jWN.jpg" alt ="Messi con un gato naranja">
-    </div>
+          </a><img class="primerasImg" src="https://pbs.twimg.com/media/Fki57jdXgAA3jWN.jpg" alt ="Messi con un gato naranja">
+        </div>
       
 
-    <div class="galeria-emergente" id="galeriaEmergente" onclick="cerrarGaleria()">
-      <img class="galeria-contenido" id="imagenSeleccionada" alt="Imagen Emergente">
-    </div>
+      <div class="galeria-emergente" id="galeriaEmergente" onclick="cerrarGaleria()">
+        <img class="galeria-contenido" id="imagenSeleccionada" alt="Imagen Emergente">
+      </div>
 
 
 
@@ -68,6 +82,7 @@
 
         </form>
     </div>
+  </div>
     <script src="script.js"></script>
       </main>
   </body>
