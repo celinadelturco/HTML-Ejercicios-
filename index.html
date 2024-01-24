@@ -2,10 +2,10 @@
 <html lang="es">
   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
   <head>
 
-    
+
     <title>Pagina de prueba</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
@@ -23,40 +23,42 @@
   </head>
   <body>
 
- 
+
     <main>
-         <!-- !!!!!!!!!!!!!!!!! -->  
-      <div class="fondo-video">
-        <video autoplay muted loop>
+    <div class="todo">     <!-- !!!!!!!!!!!!!!!!! -->
+      <div id="fondo-video" >
+        <video autoplay muted loop id="background-video">
             <source src="resourses/The Drive - ft HOME - Resonance.mp4" type="video/mp4">
             Tu navegador no soporta el elemento de video.
         </video>
-    </div>
-    
-    <!-- !!!!!!!!!!!!!!!!! -->  
-    <div class="todo">
-      <div>
-        <h1>Aprendiendo CSS y repasando HTML</h1>
-        <h2>Hecho por Celi</h2>
-        <p> Hacé <a href="https://www.instagram.com/celinadelturco" target="_blank" rel="nooperer noreferrer">click aquí </a>para ver imagenes lindas</a></p>
-        <p><!--con alt +z se pueden escribir parrafos largos--></p>
-      
-        <a href= "https://www.pinterest.es/pin/39406565473678356/" target="_blank" rel="nooperer noreferrer">
-        <div class="contenedor">
-          <img class="primerasImg" src="https://tvazteca.brightspotcdn.com/e5/46/6e03e8d34b8b8911aaae4aac99cf/gato-conejo.jpg" alt ="Un gato y un conejo y dos patos">
-          </a><img class="primerasImg" src="https://pbs.twimg.com/media/Fki57jdXgAA3jWN.jpg" alt ="Messi con un gato naranja">
-        </div>
-      
-
-      <div class="galeria-emergente" id="galeriaEmergente" onclick="cerrarGaleria()">
-        <img class="galeria-contenido" id="imagenSeleccionada" alt="Imagen Emergente">
       </div>
 
+    <!-- !!!!!!!!!!!!!!!!! -->
+
+      <div>
+        <h1>Aprendiendo CSS, HTML, y</h1>
+        <h2>Hecho por Celi</h2>
+
+       <!-- <p> Hacé <a href="https://www.instagram.com/celinadelturco" target="_blank" rel="nooperer noreferrer">click aquí </a>para ver imagenes lindas</a></p>
+        <p> con alt +z se pueden escribir parrafos largos </p> -->
+
+        <a href= "https://www.pinterest.es/pin/39406565473678356/" target="_blank" rel="nooperer noreferrer">
+
+          <div class="contenedor">
+            <img class="primerasImg" src="https://tvazteca.brightspotcdn.com/e5/46/6e03e8d34b8b8911aaae4aac99cf/gato-conejo.jpg" alt ="Un gato y un conejo y dos patos">
+            <img class="primerasImg" src="https://pbs.twimg.com/media/Fki57jdXgAA3jWN.jpg" alt ="Messi con un gato naranja">
+          </div>
+        </a>
+
+        <div class="galeria-emergente" id="galeriaEmergente" onclick="cerrarGaleria()">
+          <img class="galeria-contenido" id="imagenSeleccionada" alt="Imagen Emergente">
+        </div>
 
 
 
-    
-      <h3 class="colorCrimson"> Lo que aprendí hoy</h3>
+
+
+      <!--<h3 class="colorCrimson"> </h3>-->
 
         <p> Solo vi unas horas de un curso de HTML hecho por freeCodeCamp, así que no avancé mucho. Estoy repasando conceptos.
           Ahora recuerdo como poner títulos, párrafos, imágenes, y enlaces a otras páginas. También vi algunas definiciones que no conocía.
@@ -64,25 +66,25 @@
         </p>
 
         <h2>Cosas que los gatos aman</h2>
-        <ul>
+        <!--<ul>
           <li><a href="#comida">Comida</a></li>
           <li><a href="#pescado">Pescado</a> (a ninguna de mis gatas les gusta)</li>
           <li><a href="#celi"> Celi </a>(todos menos Loki)</li>
-        </ul>
+        </ul>-->
         <div class="contenedor">
-        <img class="ultimasImg" id= "comida" src="https://th.bing.com/th/id/R.6afc3c3773c6ae9fb6e5947c5b6ccc69?rik=pl0sfd8DEF5bjg&pid=ImgRaw&r=0"alt="comida gatuna"onclick="abrirGaleria(this)">
-        <img class="ultimasImg" id= "pescado" src="https://thumbs.dreamstime.com/b/el-gato-come-pescados-en-la-cocina-120736524.jpg" alt="gato comiendo pescado"onclick="abrirGaleria(this)">
-        <img class="ultimasImg" id= "celi" src="resourses/images/celi.png" alt="celi pintando al aire libre"onclick="abrirGaleria(this)">
+          <img class="ultimasImg" id= "comida" src="https://th.bing.com/th/id/R.6afc3c3773c6ae9fb6e5947c5b6ccc69?rik=pl0sfd8DEF5bjg&pid=ImgRaw&r=0"alt="comida gatuna"onclick="abrirGaleria(this)">
+          <img class="ultimasImg" id= "pescado" src="https://thumbs.dreamstime.com/b/el-gato-come-pescados-en-la-cocina-120736524.jpg" alt="gato comiendo pescado"onclick="abrirGaleria(this)">
+          <img class="ultimasImg" id= "celi" src="resourses/images/celi.png" alt="celi pintando al aire libre"onclick="abrirGaleria(this)">
         <!--Esta bien poner el enlace asi?-->
-      </div>
+        </div>
 
         <form action="/enviar-respuesta">
           <input type="text" placeholder="Ingrese el nombre de su gato" required>
           <button type="submit">Enviar</button>
 
         </form>
+      </div>
     </div>
-  </div>
     <script src="script.js"></script>
       </main>
   </body>
